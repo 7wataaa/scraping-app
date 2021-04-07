@@ -14,5 +14,6 @@ RUN apt-get install -y vim less
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
-#beautifulsoup4
+RUN pip install requests
 RUN pip install beautifulsoup4
+RUN pip install autopep8
